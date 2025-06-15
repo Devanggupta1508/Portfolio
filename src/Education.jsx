@@ -33,7 +33,7 @@ export default function Education() {
           <img src={Clg} alt="college logo" className="logo" />
           <div className="card-text">
             <p className="tip font-bold">Bachelor of Computer Application (BCA)</p>
-            <p className="second-text">Suruj PG Degree College, Gurugram University</p>
+            <p className="second-text">Suraj PG Degree College, Gurugram University</p>
             <p className="text-lg font-bold text-green-900 mt-1">
               2022 – 2025 | Completed
             </p>
