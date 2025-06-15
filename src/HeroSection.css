@@ -1,0 +1,168 @@
+.hero-container {
+  width: 100%;
+  padding: 40px 20px;
+  background: #f7f7f7;
+  display: flex;
+  justify-content: center;
+}
+
+a{
+  text-decoration: none;
+  color: inherit;
+}
+
+.hero-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 1200px;
+  width: 100%;
+}
+
+/* For Laptop/Desktop: text left, image right */
+@media (min-width: 768px) {
+  .hero-content {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+
+.text-section {
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+  .text-section {
+    text-align: left;
+    max-width: 50%;
+  }
+}
+
+.text-section h1 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+  color: #000;
+  margin-top: 25px;
+}
+
+.text-section h2 {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+  color: #000;
+}
+
+/* Social Icons */
+.social-icons {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+}
+
+
+
+#github:hover{
+background-color: #171515;
+}
+
+
+@media (min-width: 768px) {
+  .social-icons {
+    justify-content: flex-start;
+  }
+}
+
+.Btn {
+  background-color: #1f1f1f;
+  color: white;
+  padding: 10px;
+  border-radius: 50%;
+  transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.Btn:hover {
+  transform: scale(1.1);
+}
+
+
+
+/* Image Section */
+.image-section {
+  margin-top: 30px;
+}
+
+@media (min-width: 768px) {
+  .image-section {
+    margin-top: 0;
+  }
+}
+
+.hero-img {
+  width: 280px;
+  height: 300px;
+  border-radius: 50%;
+  box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.2);
+  margin-top: 20px;
+}
+
+@media (min-width: 1024px) {
+  .hero-img {
+    width: 400px;
+    height: 420px;
+  }
+}
+
+
+/* GitHub */
+#github:hover {
+  background-color: #171515; /* GitHub black */
+  color: white;
+}
+
+/* LinkedIn */
+.Btn:hover svg {
+  transition: all 0.3s ease;
+}
+
+a[href*="linkedin.com"]:hover {
+  background-color: #0077b5; /* LinkedIn blue */
+  color: white;
+}
+
+/* WhatsApp */
+a[href*="wa.me"]:hover {
+  background-color: #25D366; /* WhatsApp green */
+  color: white;
+}
+
+
+
+/* By default mobile-only hidden */
+.mobile-only {
+  display: none;
+}
+
+/* Hide desktop icons on mobile */
+.text-section .desktop-only {
+  display: flex;
+  gap: 1rem;
+  justify-content: flex-start;
+}
+
+@media (max-width: 767px) {
+  .text-section .desktop-only {
+    display: none;
+  }
+
+  .mobile-only {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 20px;
+  }
+
+  .mobile_img{
+    margin-top:-10px;
+  }
+}
+

@@ -1,0 +1,57 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.active-link {
+    color: #facc15;
+    font-weight: bold;
+    border-bottom: 2px solid #facc15;
+}
+
+/* Pause marquee animation when any card inside is hovered */
+.outer-wrapper:hover .marquee-track {
+  animation-play-state: paused;
+}
+
+
+a {
+  text-decoration: none !important;
+}
+
+
+/* style.css */
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+.scrollbar-hide {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;     /* Firefox */
+}
+
+
+/* Chrome, Safari, Edge */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #0b0c2a;  /* Track same as footer */
+}
+
+::-webkit-scrollbar-thumb {
+  background: #008bf8;  /* BLUE "gum" like footer highlight */
+  border-radius: 6px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #006fd0;  /* Darker blue on hover */
+}
+
+
+/* Firefox */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #457b9d  #1d3557;  /* thumb (blue), track (footer bg) */
+}

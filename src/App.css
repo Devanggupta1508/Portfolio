@@ -1,0 +1,65 @@
+/* Global Reset & Scroll Fix */
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  overflow-x: hidden;
+  font-family: sans-serif;
+  background-color: #fff;
+}
+
+/* Root Container */
+#root {
+  padding: 1rem;
+  margin: 0;
+  max-width: 100%;
+}
+
+/* Card Styling (if used anywhere) */
+.card {
+  padding: 1rem;
+}
+
+/* Logo Animation (optional) */
+.logo {
+  height: 5em;
+  transition: filter 300ms;
+}
+
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* Only animate logo when reduced motion is not preferred */
+@media (prefers-reduced-motion: no-preference) {
+  .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+/* Docs Text (if needed) */
+.read-the-docs {
+  color: #888;
+}
+
+
+a{
+  text-decoration: none;
+}

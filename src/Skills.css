@@ -1,0 +1,139 @@
+/* Base Styling */
+.skill_container {
+  /* background-color: #977dc5; */
+  background: linear-gradient(to right, #7e5bef, #5e60ce);
+
+  margin-top: 25px;
+  padding: 2rem 1rem;
+}
+
+/* Cards Grid Wrapper */
+.skill_container > div > div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+}
+
+/* Card Design */
+.card {
+  --card-bg: #ffffff;
+  --card-accent: #7c3aed;
+  --card-text: #1e293b;
+  --card-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.05);
+
+  width: 120px;
+  height: 130px;
+  background: var(--card-bg);
+  border-radius: 20px;
+  position: relative;
+  overflow: hidden;
+  transition: all 0.5s ease;
+  box-shadow: var(--card-shadow);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  font-family: 'Segoe UI', Roboto, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Glow & Shine */
+.card__glow,
+.card__shine {
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.card__glow {
+  background: radial-gradient(
+    circle at 50% 0%,
+    rgba(124, 58, 237, 0.2) 0%,
+    rgba(124, 58, 237, 0) 70%
+  );
+}
+
+.card__shine {
+  background: linear-gradient(
+    120deg,
+    rgba(255, 255, 255, 0) 40%,
+    rgba(255, 255, 255, 0.8) 50%,
+    rgba(255, 255, 255, 0) 60%
+  );
+  background-size: 200% 100%;
+}
+
+/* Content */
+.card__content {
+  z-index: 2;
+  text-align: center;
+}
+
+.card__image {
+  margin-bottom: 0.5rem;
+}
+
+.card__title {
+  color: var(--card-text);
+  font-size: 0.9rem;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+/* Hover Effects */
+.card:hover {
+  transform: translateY(-8px);
+  border-color: rgba(124, 58, 237, 0.3);
+}
+
+.card:hover .card__glow,
+.card:hover .card__shine {
+  opacity: 1;
+}
+
+.card:hover .card__shine {
+  animation: shine 2s infinite;
+}
+
+.card:hover .card__title {
+  color: var(--card-accent);
+}
+
+/* Shine Animation */
+@keyframes shine {
+  0% {
+    background-position: -100% 0;
+  }
+  100% {
+    background-position: 200% 0;
+  }
+}
+
+/* Responsive Breakpoints */
+@media (min-width: 480px) {
+  .card {
+    width: 140px;
+    height: 150px;
+  }
+
+  .card__title {
+    font-size: 1rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .card {
+    width: 150px;
+    height: 160px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .card {
+    width: 160px;
+    height: 170px;
+  }
+}
