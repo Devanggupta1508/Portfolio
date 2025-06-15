@@ -1,38 +1,44 @@
 import styles from './Project.module.css';
+import Bharat_Darshan from '../Bharat_Darshan.png';
+import Joker from '../Joker.png';
+import Lottery from '../Lottery.png';
+import Spotigy from '../Spotify.png';
+import Todo from '../Todo.png';
+import Weather from '../Weather.png';
 
 const projectData = [
   {
-    title: "Bharat Darshan",
+    title: "Bharat_Darshan",
     description: "A dynamic location-based platform that helps users explore Indian monuments and contribute new places.",
-    img: "Bharat Darshan.png",
+    img: Bharat_Darshan,
     github: "https://github.com/Devanggupta1508/Bharat_Darshan",
     view: "https://lnkd.in/d_NJaH5z",
   },
   {
     title: "My Weather App 🌦️",
     description: "It fetches real-time weather data using the OpenWeatherMap API and in a clean UI built with React & Material UI.",
-    img: "Weather.png",
+    img: Weather,
     github: "https://github.com/Devanggupta1508/Weather_App",
     view: "https://lnkd.in/dhCZQg9N",
   },
   {
     title: "Fun Joke Generator App",
     description: "While learning React, I built a fun Joke Generator App using the useEffect hook and integrated it with an external API.",
-    img: "Joker.png",
+    img: Joker,
     github: "https://github.com/Devanggupta1508/React-Joker-API",
     view: "https://react-joker-api.vercel.app/",
   },
   {
     title: "Lottery Game",
     description: "A fun and simple React.js-based Lottery Game where users win if the sum of randomly generated numbers equals 15.",
-    img: "Lottery.png",
+    img: Lottery,
     github: "https://github.com/Devanggupta1508/Lottery-Game-React.js-Project",
     view: "https://lottery-game-react-js-project.vercel.app/",
   },
   {
     title: "React Todo List",
     description: "A simple Todo List app built with React and Vite to practice components, props, useState, and event handling. Deployed on Vercel with a clean, responsive UI.",
-    img: "Todo.png",
+    img: Todo,
     github: "https://github.com/Devanggupta1508/React-Todo-List",
     view: "https://react-todo-list-g5fy.vercel.app/",
   },
@@ -40,7 +46,7 @@ const projectData = [
    {
     title: "Spotify-UI-Clone",
     description: "A sleek and responsive Spotify Clone built using HTML & CSS. This project replicates the core UI elements of Spotify, including a navigation bar, search functionality, sidebar menus, artist cards, and a footer section..",
-    img: "Spotify.png",
+    img: Spotigy,
     github: "https://github.com/Devanggupta1508/Spotify-UI-Clone",
     view: "https://devanggupta1508.github.io/Spotify-UI-Clone/",
   },

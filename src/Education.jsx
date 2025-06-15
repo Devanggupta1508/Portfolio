@@ -4,6 +4,9 @@ import "./style.css";
 
 import { FaGraduationCap } from "react-icons/fa";
 
+import Dav from '../DAV.png';
+import Clg from '../Clg_Logo.png';
+
 export default function Education() {
   return (
 
@@ -27,7 +30,7 @@ export default function Education() {
       <div className="cards">
         {/* BCA */}
         <div className="card red"data-aos="fade-down">
-          <img src="Clg_Logo.png" alt="college logo" className="logo" />
+          <img src={Clg} alt="college logo" className="logo" />
           <div className="card-text">
             <p className="tip font-bold">Bachelor of Computer Application (BCA)</p>
             <p className="second-text">Suruj PG Degree College, Gurugram University</p>
@@ -39,7 +42,7 @@ export default function Education() {
 
         {/* 12th */}
         <div className="card blue"data-aos="fade-down">
-          <img src="DAV.png" alt=" 12 School  logo" className="logo" />
+          <img src={Dav} alt=" 12 School  logo" className="logo" />
           <div className="card-text">
             <p className="tip font-bold">Senior Secondary (Class 12th) – CBSE Board</p>
             <p className="second-text">DAV Public School, Haily Mandi</p>
@@ -51,7 +54,7 @@ export default function Education() {
 
         {/* 10th */}
         <div className="card green" data-aos="fade-down">
-          <img src="DAV.png" alt=" 10 School  logo" className="logo" />
+          <img src={Dav} alt=" 10 School  logo" className="logo" />
           <div className="card-text">
             <p className="tip font-bold">Secondary (Class 10th) – CBSE Board</p>
             <p className="second-text">DAV Public School, Haily Mandi</p>

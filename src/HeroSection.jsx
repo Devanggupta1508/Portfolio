@@ -1,5 +1,6 @@
 import "./HeroSection.css";
 import { FaGithub, FaLinkedin, FaWhatsapp } from "react-icons/fa";
+import devangImg from '../devang_img.png';
 
 export default function HeroSection() {
   return (
@@ -70,7 +71,7 @@ export default function HeroSection() {
         {/* Right Image Section */}
         <div className="image-section mobile_img" data-aos="zoom-in" data-aos-delay="200" data-aos-duration="1000">
           <img
-            src="./devang_img.png"
+            src={devangImg}
             alt="Devang"
             className="hero-img"
           />

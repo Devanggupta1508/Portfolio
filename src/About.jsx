@@ -2,6 +2,8 @@ import React from "react";
 import "./style.css";
 import "./About.css";
 import { MdEmail, MdPhone, MdLocationOn } from "react-icons/md";
+import devang_About_Img from '../devAbout.png';
+
 
 const About = () => {
   return (
@@ -11,7 +13,7 @@ const About = () => {
       </h2>
 
       <div className="circleImage" data-aos="fade-zoom-in" data-aos-mirror="true" data-aos-once="false">
-        <img src="devAbout.png" alt="Devang" className="devAbout" />
+        <img src={devang_About_Img} alt="Devang" className="devAbout" />
       </div>
 
       <div data-aos="fade-down" data-aos-anchor-placement="top-bottom">
@@ -22,7 +24,7 @@ const About = () => {
         </p>
 
         <div className="info">
-          <p><MdPhone size={24} color="#0ea5e9" /> +91 7404795**9</p>
+          <p><MdPhone size={24} color="#0ea5e9" /> +91 74047**9</p>
           <p><MdEmail size={24} color="#6b21a8" /> devanggupta1508@gmail.com</p>
           <p><MdLocationOn size={24} color="#ef4444" /> Pataudi, Gurugram, India – 122504</p>
         </div>
