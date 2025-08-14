@@ -10,6 +10,7 @@ import Form from './Form';
 import Project from './Project';
 import Achievements from './Achievement';
 import Footer from './Footer';
+import Chat from './chat';
 
 export default function Portfolio(){
     return(
@@ -20,9 +21,11 @@ export default function Portfolio(){
       <Skills />
       <Education />
       <Project />
+      <Chat/>
       <Achievements />
       <Form />
       <Footer />
+      
     </div>
     )
 }

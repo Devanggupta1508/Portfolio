@@ -31,7 +31,7 @@ const About = () => {
       </div>
 
       <a
-        href="https://drive.google.com/file/d/1E0aaFNp7jrdB0knLgMyqM_lCGv2lYAiB/view?usp=sharing"
+        href="https://drive.google.com/file/d/1LOMy1wa8bQhL1ZKqOVrhNO329OGPA3IU/view"
         className="button"
         target="_blank"
         rel="noopener noreferrer"

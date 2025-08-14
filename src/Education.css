@@ -43,6 +43,12 @@ border-radius: 1rem;}
 }
 
 
+.cards .yellow {
+  background: linear-gradient(135deg, #c5b05c, #d9b763); /* Tailwind yellow shades */
+}
+
+
+
 
 .card-text {
   display: flex;

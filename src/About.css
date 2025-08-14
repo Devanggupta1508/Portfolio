@@ -117,7 +117,8 @@ a:hover {
 }
 .button:hover {
   transform: scale(1.05);
-  border-color: rgba(255, 255, 255, 0.6);
+  border-color: rgba(28, 17, 236, 0.6);
+  color: white;
 }
 .button::before {
   content: "";
@@ -142,6 +143,7 @@ a:hover {
   width: 24px;
   height: 24px;
   transition: transform 0.3s;
+  box-shadow: 100px 100px 100px black;
 }
 .button:hover .icon {
   transform: translateX(4px);

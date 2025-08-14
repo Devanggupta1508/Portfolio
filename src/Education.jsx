@@ -28,6 +28,22 @@ export default function Education() {
 
       {/* Education Cards */}
       <div className="cards">
+        {/* MCA */}
+
+         <div className="card green" data-aos="fade-down">
+  <img src={Clg} alt="College logo" className="logo" />
+  <div className="card-text">
+    <p className="tip font-bold">Master of Computer Applications (MCA)</p>
+    <p className="second-text">Gurugram University</p>
+    <p className="text-lg font-bold text-green-900 mt-1">
+      2025 – 2027 | Pursuing
+    </p>
+  </div>
+</div>
+
+
+
+
         {/* BCA */}
         <div className="card red"data-aos="fade-down">
           <img src={Clg} alt="college logo" className="logo" />
@@ -53,7 +69,7 @@ export default function Education() {
         </div>
 
         {/* 10th */}
-        <div className="card green" data-aos="fade-down">
+        <div className="card yellow" data-aos="fade-down">
           <img src={Dav} alt=" 10 School  logo" className="logo" />
           <div className="card-text">
             <p className="tip font-bold">Secondary (Class 10th) – CBSE Board</p>
