@@ -43,7 +43,7 @@ const Skills = () => {
   return (
     <div className="skill_container" id="skills" data-aos="fade-up"  data-aos-mirror="true" data-aos-once = "false">
     <div style={{ textAlign: "center", padding: "2rem" }}>
-      <h2 style={{ fontSize: "5rem", marginBottom: "1rem",  color:"#ff006e", fontWeight:"700"}}> Core <span style={{color:"#3a86ff",fontWeight:"700"}}> Skills</span></h2>
+      <h2 style={{ fontSize: "5rem", marginBottom: "1rem",  color:"#ff006e", fontWeight:"700"}}> Core <span style={{color:"#f1a52cff",fontWeight:"700"}}> Skills</span></h2>
       <div
         style={{
           display: "flex",

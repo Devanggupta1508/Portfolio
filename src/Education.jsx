@@ -6,6 +6,7 @@ import { FaGraduationCap } from "react-icons/fa";
 
 import Dav from '../DAV.png';
 import Clg from '../Clg_Logo.png';
+import Wctm from '../WCTM.png';
 
 export default function Education() {
   return (
@@ -31,10 +32,10 @@ export default function Education() {
         {/* MCA */}
 
          <div className="card green" data-aos="fade-down">
-  <img src={Clg} alt="College logo" className="logo" />
+  <img src={Wctm} alt="College logo" className="logo" />
   <div className="card-text">
     <p className="tip font-bold">Master of Computer Applications (MCA)</p>
-    <p className="second-text">Gurugram University</p>
+    <p className="second-text">WCTM (World College of Technology & Management, Gurgaon), affiliated with MDU, Rohtak.”</p>
     <p className="text-lg font-bold text-green-900 mt-1">
       2025 – 2027 | Pursuing
     </p>
@@ -49,7 +50,7 @@ export default function Education() {
           <img src={Clg} alt="college logo" className="logo" />
           <div className="card-text">
             <p className="tip font-bold">Bachelor of Computer Application (BCA)</p>
-            <p className="second-text">Suraj PG Degree College, Gurugram University</p>
+            <p className="second-text">Gurugram University</p>
             <p className="text-lg font-bold text-green-900 mt-1">
               2022 – 2025 | Completed
             </p>

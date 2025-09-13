@@ -1,7 +1,8 @@
 /* Base Styling */
 .skill_container {
   /* background-color: #977dc5; */
-  background: linear-gradient(to right, #7e5bef, #5e60ce);
+  /* background: linear-gradient(to right, #7e5bef, #5e60ce); */
+  background-color: rgb(53, 49, 49);
 
   margin-top: 25px;
   padding: 2rem 1rem;

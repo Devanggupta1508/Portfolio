@@ -5,6 +5,7 @@ import Lottery from '../Lottery.png';
 import Spotigy from '../Spotify.png';
 import Todo from '../Todo.png';
 import Weather from '../Weather.png';
+import AppointmentSystem from '../AppointmentSystem.png';
 
 const projectData = [
   {
@@ -12,14 +13,25 @@ const projectData = [
     description: "A dynamic location-based platform that helps users explore Indian monuments and contribute new places.",
     img: Bharat_Darshan,
     github: "https://github.com/Devanggupta1508/Bharat_Darshan",
-    view: "https://lnkd.in/d_NJaH5z",
+    view: "https://bharat-darshan-7w6e.onrender.com/listings",
   },
+
+    {
+    title: "Hospital Appointment Management System",
+    description: "Built a responsive web app for hospital appointment scheduling, replacing manual processes with real-time patient management and record updates.",
+    img:AppointmentSystem,
+    github: "https://github.com/Devanggupta1508/Patient-Appointment-System",
+    view: "https://patient-appointment-system-tau.vercel.app/",
+  },
+
+
+
   {
     title: "My Weather App 🌦️",
     description: "It fetches real-time weather data using the OpenWeatherMap API and in a clean UI built with React & Material UI.",
     img: Weather,
     github: "https://github.com/Devanggupta1508/Weather_App",
-    view: "https://lnkd.in/dhCZQg9N",
+    view: "https://weather-app-bay-nine-38.vercel.app/",
   },
   {
     title: "Fun Joke Generator App",
@@ -45,7 +57,7 @@ const projectData = [
 
    {
     title: "Spotify-UI-Clone",
-    description: "A sleek and responsive Spotify Clone built using HTML & CSS. This project replicates the core UI elements of Spotify, including a navigation bar, search functionality, sidebar menus, artist cards, and a footer section..",
+    description: "A sleek and responsive Spotify Clone built using HTML & CSS. This project replicates the core UI elements of Spotify...",
     img: Spotigy,
     github: "https://github.com/Devanggupta1508/Spotify-UI-Clone",
     view: "https://devanggupta1508.github.io/Spotify-UI-Clone/",

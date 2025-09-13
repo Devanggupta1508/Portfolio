@@ -10,7 +10,6 @@ import Form from './Form';
 import Project from './Project';
 import Achievements from './Achievement';
 import Footer from './Footer';
-import Chat from './ChatNotification';
 import ChatNotification from './ChatNotification';
 
 export default function Portfolio(){
