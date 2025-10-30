@@ -69,8 +69,8 @@ const projectData = [
     title: "E-Commerce Web Application",
     description: " Developed a full-featured front-end e-commerce application using HTML, CSS, and JavaScript, with real-time API integration and client-side state management.",
     img: Ecommerce,
-    github: "https://github.com/Devanggupta1508/Spotify-UI-Clone",
-    view: "https://devanggupta1508.github.io/Spotify-UI-Clone/",
+    github: "https://github.com/Devanggupta1508/ECommerce",
+    view: "https://e-commerce-nine-ruddy-58.vercel.app/index.html",
   },
 ];
 
