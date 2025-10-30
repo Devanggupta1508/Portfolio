@@ -6,6 +6,8 @@ import Spotigy from '../Spotify.png';
 import Todo from '../Todo.png';
 import Weather from '../Weather.png';
 import AppointmentSystem from '../AppointmentSystem.png';
+import Ecommerce from '../E-commerce.png';
+
 
 const projectData = [
   {
@@ -59,6 +61,14 @@ const projectData = [
     title: "Spotify-UI-Clone",
     description: "A sleek and responsive Spotify Clone built using HTML & CSS. This project replicates the core UI elements of Spotify...",
     img: Spotigy,
+    github: "https://github.com/Devanggupta1508/Spotify-UI-Clone",
+    view: "https://devanggupta1508.github.io/Spotify-UI-Clone/",
+  },
+
+  {
+    title: "E-Commerce Web Application",
+    description: " Developed a full-featured front-end e-commerce application using HTML, CSS, and JavaScript, with real-time API integration and client-side state management.",
+    img: Ecommerce,
     github: "https://github.com/Devanggupta1508/Spotify-UI-Clone",
     view: "https://devanggupta1508.github.io/Spotify-UI-Clone/",
   },

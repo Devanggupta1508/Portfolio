@@ -2,7 +2,7 @@
 .skill_container {
   /* background-color: #977dc5; */
   /* background: linear-gradient(to right, #7e5bef, #5e60ce); */
-  background-color: rgb(53, 49, 49);
+  background-color: rgb(251, 248, 248);
 
   margin-top: 25px;
   padding: 2rem 1rem;
@@ -14,6 +14,7 @@
   flex-wrap: wrap;
   justify-content: center;
   gap: 1rem;
+  
 }
 
 /* Card Design */
@@ -37,6 +38,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  border: 1px solid black;
 }
 
 /* Glow & Shine */
@@ -116,8 +118,8 @@
 /* Responsive Breakpoints */
 @media (min-width: 480px) {
   .card {
-    width: 140px;
-    height: 150px;
+    width: 100px;
+    height: 100px;
   }
 
   .card__title {
@@ -127,14 +129,14 @@
 
 @media (min-width: 768px) {
   .card {
-    width: 150px;
-    height: 160px;
+    width: 100px;
+    height: 100px;
   }
 }
 
 @media (min-width: 1024px) {
   .card {
-    width: 160px;
-    height: 170px;
+    width: 100px;
+    height: 100px;
   }
 }
