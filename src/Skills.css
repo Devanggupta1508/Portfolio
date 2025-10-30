@@ -116,27 +116,24 @@
 }
 
 /* Responsive Breakpoints */
-@media (min-width: 480px) {
+/* Card width for 3 in a row on mobile */
+@media (max-width: 767px) {
   .card {
-    width: 100px;
-    height: 100px;
-  }
-
-  .card__title {
-    font-size: 1rem;
+    width: calc((100% - 2rem) / 3); /* 3 cards per row with 1rem gap */
+    height: 120px;
   }
 }
 
-@media (min-width: 768px) {
+/* Tablet / small desktop */
+@media (min-width: 768px) and (max-width: 1023px) {
   .card {
-    width: 100px;
-    height: 100px;
+    width: calc((100% - 2rem) / 4); /* 4 cards per row */
   }
 }
 
+/* Desktop */
 @media (min-width: 1024px) {
   .card {
-    width: 100px;
-    height: 100px;
+    width: 100px; /* ya fixed width jo tu chahe */
   }
 }
